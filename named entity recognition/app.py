@@ -11,7 +11,7 @@ import urllib.parse
 import secrets
 
 # Configure Gemini API
-API_KEY = "AIzaSyDot8VOtEx6PFIDTN7JBBuVgg-sznlqiMM"  # Replace with your actual Gemini API key
+API_KEY = "enter your gemini api key"  # Replace with your actual Gemini API key
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
